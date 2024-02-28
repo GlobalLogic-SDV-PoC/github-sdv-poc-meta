@@ -25,12 +25,12 @@ on:
       Depends:
         description: 'Dependencies'
         required: true
-        default: 'hitachiastemo-astemo-variant-3.0.0,
-          hitachiastemo-qnx-sdp-3.0.0,
-          hitachiastemo-qcom-amss-3.0.0,
-          hitachiastemo-tools-3.0.0,
-          hitachiastemo-qcom-qnx-3.0.0,
-          hitachiastemo-qcom-license-3.0.0,
+        default: 'astemo-variant (= 3.0.0),
+          qnx-sdp (= 3.0.0),
+          qcom-amss (= 3.0.0),
+          astemo-tools (= 3.0.0),
+          qcom-qnx (= 3.0.0),
+          qcom-license (= 3.0.0),
           libssl1.0-dev,
           cmake (>= 3.17.1),
           device-tree-compiler (>= 1.4.4),
